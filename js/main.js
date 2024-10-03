@@ -1,2 +1,1 @@
-console.log("Loaded maim.js");
-console.log("Hello World");
+(() => console.log("Loaded maim.js"))();
