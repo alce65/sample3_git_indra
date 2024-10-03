@@ -4,5 +4,6 @@ export class Service {
     }
     doSomething() {
         console.log("Service doSomething form main");
+        console.log("About service things");
     }
 }
