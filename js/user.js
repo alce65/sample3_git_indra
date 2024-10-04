@@ -3,6 +3,10 @@ export class User {
         this.users = [];
     }
 
+    login(user) {
+        return user;
+    }
+
     addUser(user) {
         this.users.push(user);
     }
