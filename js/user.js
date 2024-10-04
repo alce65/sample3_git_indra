@@ -7,6 +7,10 @@ export class User {
         return user;
     }
 
+    register(user) {
+        this.addUser(user);
+    }
+
     addUser(user) {
         this.users.push(user);
     }
